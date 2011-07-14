@@ -13,12 +13,12 @@ extern "C" {
 	#include "dhcp.h"
 #endif
 }
-#include "EtherShield.h"
+#include "nnanode.h"
 
 //constructor
 EtherShield::EtherShield(){
 }
-
+xxx
 void EtherShield::ES_enc28j60SpiInit(){
   enc28j60SpiInit();
 }
