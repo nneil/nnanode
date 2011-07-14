@@ -54,7 +54,7 @@ void setup(){
   es.ES_enc28j60SpiInit();
 
   Serial.println("Init ENC28J60");
-  es.ES_enc28j60Init(mymac);
+  es.ES_enc28j60Init(mymac,8); // magic number for nanode
 
   Serial.println("Init done");
   
